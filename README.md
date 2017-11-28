@@ -1,6 +1,11 @@
 # MDMONet
 CSCI599 Term Project: Multi-Domain Multi-Object Tracking Network and Its Application on Traffic Flow Monitor
 
+## Team members
+- Tian Ye: tye459@usc.edu
+- Shuo Wang: wang133@usc.edu
+- Weidong Chen: chenweid@usc.edu
+
 ## Responsibility
 
 This research is accomplished by team member as follow:
