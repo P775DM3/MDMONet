@@ -27,6 +27,10 @@ This research is accomplished by team member as follow:
 - Move the folder into path: `tracker/py-MDNet-master/dataset/OTB/`
 - Open `/tracker/py-MDNet-master/tracking/trackerM.ipynb` and run. Then result path will be saved in `/tracker/py-MDNet-master/result/` and image will be saved in `/tracker/py-MDNet-master/result_fig/`.
 
+## Sample result
+
+The video result is available in [here](https://youtu.be/JmfeOyw1c3M)
+
 ## Abstract
 
 We propose a visual tracking algorithm based on multi-domain convolutional network, which was designed to solve single-object tracking problem. Our algorithm need a pretrained detection network to indicate all objects in a frame as groundtruth. Structure of tracking network is quite conventional, three convolutional layers as shared layers and multi-domain three fully connected layers for each object. When an object is detected for the first time, we train shared layers of network and corresponding branch of it. If there are more than one newly detected objects, we train the network with respect to each domain iteratively. During online tracking, trainable variable are merely parameters in fully-connected layers in specific domain. The proposed algorithm is proved to have great performance in vehicle tracking problem, we apply it to a demo rude-driving detection application. 
