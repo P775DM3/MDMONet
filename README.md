@@ -1,5 +1,5 @@
 # MDMONet
-The process to detect and track cars by MDMONet can be divided into two parts: detector and tracker.
+CSCI599 Term Project: Multi-Domain Multi-Object Tracking Network and Its Application on Traffic Flow Monitor
 
 ## Responsibility
 
